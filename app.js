@@ -16,6 +16,6 @@ app.use(express.json())
 const alienRoute = require('./routes/aliens')
 app.use('/aliens',alienRoute)
 
-app.listen(9000,()=>{
+app.listen(9001,()=>{
     console.log("sever started")
 })
